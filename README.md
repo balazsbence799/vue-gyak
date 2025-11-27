@@ -1,5 +1,23 @@
-# Vue 3 + TypeScript + Vite
+# REST + GraphQL Felhasználólekérő – Vue 3 + Vite
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Ez a projekt egy gyakorló feladat, amely bemutatja, hogyan lehet **REST** és **GraphQL** API-ból felhasználókat lekérni **Vue 3 + Vite** környezetben.  
+A felhasználók adatai (név, e-mail, telefon) megjelennek, miközben a rendszer **betöltésjelző spinner**-t és **progress bart** mutat.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+---
+
+## 1. Projekt létrehozása
+
+A projektet az alábbi parancsokkal készítettük el:
+
+```bash
+# 1) Új Vite + Vue projekt generálása
+npm create vite@latest vue-gyak -- --template vue
+
+# 2) Belépés a projekt mappájába
+cd vue-gyak
+
+# 3) Alap függőségek telepítése
+npm install
+
+# 4) Axios telepítése HTTP kérésekhez
+npm install axios
